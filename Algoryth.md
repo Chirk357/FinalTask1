@@ -1,1 +1,1 @@
-https://lucid.app/lucidchart/1c63868a-2c78-43e5-97ee-25ad24ade9b8/edit?beaconFlowId=509B0E16A86C8AEF&invitationId=inv_6f428d0b-0ca0-4c63-9d4c-07403d2f1807&page=0_0#
+https://lucid.app/lucidchart/1c63868a-2c78-43e5-97ee-25ad24ade9b8/edit?viewport_loc=-10%2C-1100%2C1707%2C821%2C0_0&invitationId=inv_6f428d0b-0ca0-4c63-9d4c-07403d2f1807
