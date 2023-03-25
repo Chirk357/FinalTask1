@@ -4,3 +4,17 @@
 
 
 string[] Array = new string[5] {"window", "89", "1", "846352", "764"}; // Задаем массив из строк
+
+string[] CountAndResultArray(string[] Array, int countOfSymbols) // Создаем метод, который будет считать кол-во символов в слове и выдаст результирующий массив строк
+{
+    int[] defineQuantityOfSymbols = new int[Array.Length]; // создаем массив целых чисел для запоминания индекса слова с нужным кол-м символов
+    
+    int count = 0; 
+    for(int i = 0; i < Array.Length; i++)
+    {
+        if(Array[i].Length <= countOfSymbols)
+        {
+                defineQuantityOfSymbols[count] = i;
+                count++;    
+        }
+    }
