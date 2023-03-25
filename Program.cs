@@ -26,3 +26,13 @@ string[] CountAndResultArray(string[] Array, int countOfSymbols) // Создае
     }
     return newArray;
 }
+
+
+string[] Array2 = new string[5] {"1", "Ok", "timeless", "93820183746", "run"}; 
+Console.WriteLine($"[{string.Join(", ", Array2)}] -> [{string.Join(", ", CountAndResultArray(Array2, 3))}]"); // вызываем метод и задаем кол-во симоволов для слова =3.
+
+string[] Array3 = new string[5] {"Divan", "vaza", "93", "Ika", "uha"};
+Console.WriteLine($"[{string.Join(", ", Array3)}] -> [{string.Join(", ", CountAndResultArray(Array3, 2))}]"); // вызываем метод и задаем кол-во симоволов для слова =2.
+
+string[] Array4 = new string[3] {"7", "5", "juke"};
+Console.WriteLine($"[{string.Join(", ", Array4)}] -> [{string.Join(", ", CountAndResultArray(Array4, 1))}]"); // вызываем метод и задаем кол-во симоволов для слова =1.
