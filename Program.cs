@@ -18,3 +18,11 @@ string[] CountAndResultArray(string[] Array, int countOfSymbols) // Создае
                 count++;    
         }
     }
+
+    string[] newArray = new string[count]; // Создаем результирующий массив строк, используя результат предыдущего блока кода
+    for(int i = 0; i < count; i++)
+    {
+        newArray[i] = Array[defineQuantityOfSymbols[i]];
+    }
+    return newArray;
+}
